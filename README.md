@@ -7,5 +7,3 @@ Excludat an dedissem reperiri authorem is de existant ad. Sap dum lus deveniri e
 ```c#
 public bool IsReady() => true;
 ```
-
-:sparkles: :sparkles: :sparkles:
