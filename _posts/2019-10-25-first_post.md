@@ -1,3 +1,3 @@
-# Decorator Patterm
+# Decorator Pattern
 
 TBD
