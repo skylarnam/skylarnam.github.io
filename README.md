@@ -8,7 +8,7 @@
 
 ### Todo:
 1. **Design Patterns**
-    - Decorator Pattern
+    - [Decorator Pattern](_posts/2019-10-25-first_post.md)
     - Publish-Subscribe Pattern
 
 
