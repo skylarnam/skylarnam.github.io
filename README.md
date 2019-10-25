@@ -1,11 +1,8 @@
-## Welcome to Skylar's Github page!
+Demo: [http://webjeda.com/cards](http://webjeda.com/cards)
 
-### I will add all the stuff that I learned so far here, so stay tuned.
+## Installation
+* Fork the repository
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready.
 
-Excludat an dedissem reperiri authorem is de existant ad. Sap dum lus deveniri existere incedere revocari. Industria qui affirmare attentius his desuescam cau assentiar rationale. Fundamenta mem facultatem describere vox dem appellatur ima. Saeculi corpori virorum eae has futurus rea aliquae. Lumini operae vitari fas res negari nia lor. Quaerendum cohaereant supponatur ut detorqueat in is. Quare ope hae sum curis nullo via. Eos dubito magnis cau fallat nescio fronte. 
-
-```c#
-public bool IsReady() => true;
-```
-
-:sparkles: :sparkles: :sparkles:
+For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
