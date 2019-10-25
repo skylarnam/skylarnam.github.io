@@ -8,8 +8,8 @@
 
 ### Todo:
 1. **Design Patterns**
-    - [ ] Decorator Pattern
-    - [ ] Publish-Subscribe Pattern
+    - Decorator Pattern
+    - Publish-Subscribe Pattern
 
 
 ***
