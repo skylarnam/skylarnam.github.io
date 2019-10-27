@@ -70,7 +70,7 @@ public class Boba : IDrink
     }
 }
 
-public class DrinkDecorator : IDrink
+public abstract class DrinkDecorator : IDrink
 {
     private IDrink drink;
 
