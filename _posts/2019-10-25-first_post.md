@@ -88,6 +88,7 @@ public class DrinkDecorator : IDrink
 public class DiscountBoba : DrinkDecorator
 {
     private const double discount = 0.1;
+
     public DiscountBoba(DrinkDecorator drink)
         : base(drink)
     {
