@@ -5,9 +5,6 @@
 > “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler
 
 
-
-### Todo:
-
 ### Design Patterns
 1. **Creational Patterns**
     - Abstract Factory Pattern
