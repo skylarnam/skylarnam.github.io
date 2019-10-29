@@ -1,3 +1,8 @@
+---
+layout: default
+title: Decorator Pattern
+---
+
 # Decorator Pattern
 
 > The decorator pattern allows to add a new functionality to an existing object without having to necessarily change its structure.
