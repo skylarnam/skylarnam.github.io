@@ -111,7 +111,7 @@ public class DiscountBoba : DrinkDecorator
 
 As you can see from above, we have an `interface` called `Drink` and a drink called `Boba` implements it.
 
-### Why do we use it?
+### Why would we use this pattern?
 
 Say we want to give a discount on a boba drink. An easy way to do so is to go to the `Boba` class and change the method `CalculatePrice()` to return the discounted price instead of the full price. However, that involves a direct modification of the concrete `Boba` class that we probably will not want to do -- it introduces more coupling and a steeper maintenance cost.
 
