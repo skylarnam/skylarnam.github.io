@@ -23,7 +23,7 @@
     - What is ETW?
     - ETW Design
     - EventSource
-    - ETW Tools
+    - PerfView
 
 ***
 
