@@ -7,10 +7,23 @@
 
 
 ### Todo:
-1. **Design Patterns**
+
+### Design Patterns
+1. **Creational Patterns**
+    - Abstract Factory Pattern
+2. **Structural Patterns**
     - [Decorator Pattern](_posts/2019-10-25-first_post.md)
+    - Proxy Pattern
+    - Adapter Pattern
+3. **Behavioral Patterns**
     - Publish-Subscribe Pattern
 
+### Concepts
+1. Event Tracing for Windows (ETW)
+    - What is ETW?
+    - ETW Design
+    - EventSource
+    - ETW Tools
 
 ***
 
