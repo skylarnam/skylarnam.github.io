@@ -106,6 +106,8 @@ public class DiscountBoba : DrinkDecorator
 
 As you can see from above, we have an `interface` called `Drink` and a drink called `Boba` implements it.
 
+### Why do we use it?
+
 Say we want to give a discount on a boba drink. An easy way to do so is to go to the `Boba` class and change the method `CalculatePrice()` to return the discounted price instead of the full price. However, that involves a direct modification of the concrete `Boba` class that we probably will not want to do -- it introduces more coupling and a steeper maintenance cost.
 
 That's why we implement another `abstract class` called `DrinkDecorator` that takes in a `Drink`. We can take `Boba` in as a constructor variable and let `DiscountBoba` implement the `DrinkDecorator`. Then, what that class will do becomes pretty easy to understand. We do `base.CalculatePrice()` inside the overridden method inside `DiscountBoba` and we also know that the base will be of type `Drink`, where in this case, will be a `Boba`. We apply the discount on top of the price that is returned from the base class.
