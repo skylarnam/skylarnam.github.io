@@ -21,6 +21,7 @@
     - ETW Design
     - EventSource
     - PerfView
+2. What is a good telemetry design?
 
 ***
 
