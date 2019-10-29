@@ -23,6 +23,15 @@
     - PerfView
 2. What is a good telemetry design?
 
+### Cool C# Features
+1. `System.Threading`
+    - Mutex
+    - ReaderWriterLockSlim
+    - Interlocked
+    - ManualResetEvent
+4. `System.Buffers`
+    - ArrayPool\<T\>
+
 ***
 
 ```c#
