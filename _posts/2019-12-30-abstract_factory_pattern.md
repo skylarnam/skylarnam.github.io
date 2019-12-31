@@ -97,11 +97,11 @@ public class ExquisiteMenuFactory : HotelDiningMenuFactory
 }
 ```
 
-As we can see from above, there's one abstract class named `HotelDiningFactory` that defines creation of dining menus. Concrete factories named `RegularDiningMenuFactory` and `ExquisiteDiningMenuFactory` implement `HotelDiningFactory` by overriding abstract creational methods and returning actual objects (in our example, the appetizer, entree, and desert.)
+As we can see from above, there's one abstract class named `HotelDiningMenuFactory` that defines creation of dining menus. Concrete factories named `RegularDiningMenuFactory` and `ExquisiteDiningMenuFactory` implement `HotelDiningMenuFactory` by overriding abstract creational methods and returning actual objects (in our example, the appetizer, entree, and desert.)
 
 ### Why would we use this pattern?
 
-From the example, we can tell that the `HotelDiningFactory` ultimately does the same thing. It creates three courses: appetizer, entree, and dessert. This dining format will apply to all the course menus -- whether it's a cheap or an expensive dining menu, what gets returned are the three courses.
+From the example, we can tell that the `HotelDiningMenuFactory` ultimately does the same thing. It creates three courses: appetizer, entree, and dessert. This dining format will apply to all the course menus -- whether it's a cheap or an expensive dining menu, what gets returned are the three courses.
 
 By creating an abstract factory that concrete factories can inherit from, we can assure that all dining menus that inherit from the same `HotelDiningMenuFactory` will use the same methods to create different courses and assure that they return the expected courses. By this, I mean that there won't be a dining course that inherits from the abstract factory and say "I'll create an appetizer!" and then end up creating something else, say, like a boba. (Is boba a dessert? Or is it something like the air that we should consistently breathe upon?)
 
