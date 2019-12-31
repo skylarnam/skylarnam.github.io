@@ -7,9 +7,9 @@
 
 ### Design Patterns
 1. **Creational Patterns**
-    - Abstract Factory Pattern
+    - [Abstract Factory Pattern](_posts/2019-12-30-abstract_factory_pattern.md)
 2. **Structural Patterns**
-    - [Decorator Pattern](_posts/2019-10-25-first_post.md)
+    - [Decorator Pattern](_posts/2019-10-25-decorator_pattern.md)
     - Proxy Pattern
     - Adapter Pattern
 3. **Behavioral Patterns**
