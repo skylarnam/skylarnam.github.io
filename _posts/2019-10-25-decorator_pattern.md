@@ -5,9 +5,9 @@ title: Decorator Pattern
 
 # Decorator Pattern
 
-> The decorator pattern allows to add a new functionality to an existing object without having to necessarily change its structure.
+> A decorator pattern allows to add a new functionality to an existing object without having to necessarily change its structure.
 
-The decorator pattern is comprised of these four pieces:
+A decorator pattern is comprised of these four pieces:
 
 1. `interface` of a component
 2. `class` of a component that implements the interface, called a **concrete component**
@@ -109,7 +109,7 @@ public class DiscountBoba : DrinkDecorator
 }
 ```
 
-As you can see from above, we have an `interface` called `Drink` and a drink called `Boba` implements it.
+As we can see from above, we have an `interface` called `Drink` and a drink called `Boba` implements it.
 
 ### Why would we use this pattern?
 
@@ -120,5 +120,6 @@ That's why we implement another `abstract class` called `DrinkDecorator` that ta
 By introducing `DrinkDecorator` that decorates `Drink`, we did not have to modify any concrete implementation of `Boba` and could still give a nice 10% discount on it.
 
 Hope this helped!
+###### 10/25/2019
 
 ### [Go back](https://www.skylar.page)
