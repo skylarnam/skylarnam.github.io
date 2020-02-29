@@ -10,10 +10,10 @@
     - [Abstract Factory Pattern](_posts/2019-12-30-abstract_factory_pattern.md)
 2. **Structural Patterns**
     - [Decorator Pattern](_posts/2019-10-25-decorator_pattern.md)
-    - Proxy Pattern
+    - [Proxy Pattern](_posts/2020-02-29-proxy_pattern.md)
     - Adapter Pattern
 3. **Behavioral Patterns**
-    - Publish-Subscribe Pattern
+    - [Publish-Subscribe Pattern](_posts/2020-02-29-publish_subscribe_pattern.md)
 
 ### Concepts
 1. Event Tracing for Windows (ETW)
