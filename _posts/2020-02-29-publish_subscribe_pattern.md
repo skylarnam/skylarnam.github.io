@@ -148,7 +148,7 @@ public class PublishSubscribeService : IPublishSubscribeService
 
 The real-world example above shows how to safely call `Publish<T>(T @event)`, `Subscribe<T>(Action<T> listener)`, and `Unsubscribe<T>(Action<T> listener)` where T is a `PublishSubscribeEvent`. The service user will then only have to create a new event class that inherits from a `PublishSubscribeEvent` with parameters needed to publish an event or subscribe/unsubscribe from an event.
 
-A `ReaderWriterLockSlim` is used here to prevent unwanted side effects such as deadlocks. It's actually such a powerful class with nice features and even provides a `UpgradeableReadLock` that you can use to first put a lock on read which could later be upgraded to a write lock. You can use this in other situations as well: [ReaderWriterLockSlim Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.threading.readerwriterlockslim?view=netframework-4.8). I'm going to make a new blog post just to describe how cool it is. Stay tuned!
+A `ReaderWriterLockSlim` is used here to prevent unwanted side effects such as deadlocks. It's actually such a powerful class with nice features and even provides a `UpgradeableReadLock` that you can use to first put a lock on read which could later be upgraded to a write lock. You can use this in other situations as well: [ReaderWriterLockSlim Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.threading.readerwriterlockslim?view=netframework-4.8) I'm going to make a new blog post just to describe how cool it is. Stay tuned!
 ###### 2/29/2020
 
 ### [Go back](https://www.skylar.page)
