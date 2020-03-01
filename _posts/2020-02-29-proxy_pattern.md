@@ -7,7 +7,7 @@ title: Proxy Pattern
 
 > A "proxy", which is also known as a surrogate or placeholder, is invented in the first place to provide a substitute for the original object like its literal meaning. It is widely used for many reasons, where two of them are 1. security benefits (since the original object isn't directly manipulated) and 2. reduced cost of creating a full object.
 
-Since the main purpose of a proxy is to hide the original object and control access to it, it is important to make sure that the proxy verifies the access in a correcty way, through a service or a client.
+> Since the main purpose of a proxy is to hide the original object and control access to it, it is important to make sure that the proxy verifies the access in a correcty way, through a service or a client.
 
 ### Implementation code
 
