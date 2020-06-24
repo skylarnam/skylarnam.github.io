@@ -24,6 +24,7 @@
     - PerfView
 2. What is a good telemetry design?
 3. What is Data Virtualization in WPF?
+4. What is a single responsibility principle?
 
 ### Cool C# Features
 1. `System.Threading`
