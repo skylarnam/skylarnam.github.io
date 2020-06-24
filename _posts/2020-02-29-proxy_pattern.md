@@ -133,4 +133,4 @@ I already mentioned this, but there are two main reasons that we'd want to use t
 There are other kinds of proxies as well as a remote proxy. **JsonRPC** is a good example. The website ([JsonRPC Specification](https://www.jsonrpc.org/specification)) describes its product well: JSON-RPC is a stateless, light-weight remote procedure call (RPC) protocol. Primarily this specification defines several data structures and the rules around their processing. It is transport agnostic in that the concepts can be used within the same process, over sockets, over http, or in many various message passing environments.
 ###### 2/29/2020
 
-### [Go back](https://www.skypar.page)
+### [Go back](https://www.skylar.page)
