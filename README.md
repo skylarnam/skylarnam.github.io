@@ -12,6 +12,7 @@
     - [Decorator Pattern](_posts/2019-10-25-decorator_pattern.md)
     - [Proxy Pattern](_posts/2020-02-29-proxy_pattern.md)
     - Adapter Pattern
+    - Template Pattern
 3. **Behavioral Patterns**
     - [Publish-Subscribe Pattern](_posts/2020-02-29-publish_subscribe_pattern.md)
 
